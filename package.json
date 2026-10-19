@@ -1,0 +1,20 @@
+{
+  "name": "jogatina-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal de jogos de navegador com seção diária, construído a partir da engenharia reversa do comportamento de um portal de referência.",
+  "scripts": {
+    "start": "node server.js 8080",
+    "build": "node tools/build.mjs",
+    "media": "node tools/media.mjs",
+    "test": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "node tests/e2e/clone.test.mjs",
+    "test:parity": "node tests/parity/logic.mjs > docs/parity-logic.json && node tests/parity/run.mjs",
+    "matrix": "node tools/matrix.mjs",
+    "test:all": "npm test && npm run test:e2e && npm run test:parity && npm run matrix"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

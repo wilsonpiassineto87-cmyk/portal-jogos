@@ -1,0 +1,2412 @@
+{
+ "date": "2026-10-19T18:19:52.665Z",
+ "targets": {
+  "ref": "https://www.friv.com/",
+  "clone": "http://127.0.0.1:45853/"
+ },
+ "ref": {
+  "obs": {
+   "H01": "Friv® | FRIV.COM : The Best Free Games 🎃 Halloween",
+   "H02": {
+    "theme": "#600090",
+    "viewport": "width=device-width,initial-scale=1",
+    "og": true,
+    "twitter": false,
+    "canonical": true,
+    "ld": [
+     "Organization"
+    ]
+   },
+   "H03": {
+    "svg": true,
+    "png": true,
+    "apple": true,
+    "mask": true,
+    "manifest": true
+   },
+   "H05": "linear-gradient(rgb(75, 0, 130), rgb(0, 0, 128))",
+   "H06": {
+    "hOverVw": 30,
+    "capVh": true,
+    "bg": "linear-gradient(172.8deg, rgb(68, 0, 170"
+   },
+   "H07": {
+    "cursor": "pointer",
+    "rotate": true
+   },
+   "H10": "block",
+   "H12": {
+    "nearRight": true,
+    "nearTop": true
+   },
+   "H13": true,
+   "H15": "block",
+   "H16": "linear-gradient(to right, rgb(255, 69, 0) 0%, rgb(255, 140, 0) 10%, rgb(255, 140, 0) 90%, rgb(255, 69, 0) 100%)",
+   "H17": {
+    "label": "Today's Halloween Joke - Click For The Answer",
+    "after": "Today's Halloween Joke",
+    "grew": true
+   },
+   "H20": "LOADING GAMES",
+   "H23": true,
+   "IDS": [
+    "GIFMessage",
+    "achievementSignifier",
+    "achievementSlider",
+    "amazingImage",
+    "amazingImageBottomBar",
+    "amazingPicture",
+    "bottomPoo",
+    "bottomPromoTextLink",
+    "chiptune",
+    "chiptuneAudio",
+    "chiptuneBottomBar",
+    "colourSelector",
+    "combatRemove",
+    "copyright",
+    "copyrightYear",
+    "cuteImage",
+    "cuteImageBottomBar",
+    "cutePicture",
+    "dBugBlinker",
+    "dBugText",
+    "dailyGIF",
+    "dailyGIFBottomBar",
+    "dailyGIFEmoji",
+    "dailyGIFImage",
+    "dateStrap",
+    "desktopPrmo",
+    "devoryGames",
+    "devoryGamesContent",
+    "devoryGamesMainTitle",
+    "dropGfx",
+    "famousQuote",
+    "famousQuoteBottomBar",
+    "famousQuoteEmoji",
+    "feedback",
+    "feedback1",
+    "feedbackIntroText",
+    "footerSection",
+    "friv4SchoolFactBottomBar",
+    "friv4SchoolFactsContainer",
+    "friv4SchoolFactsContents",
+    "friv4SchoolFactsThankyou",
+    "frivDaily",
+    "frivDailyInner",
+    "frivTips",
+    "frivolousFact",
+    "frivolousFactBottomBar",
+    "frivolousFactEmoji",
+    "funnyVideo",
+    "funnyVideoBottomBar",
+    "funnyVideoBox",
+    "funnyVideoContainer",
+    "gamesBlock",
+    "gfxSpeedSquare",
+    "halloweenRemove",
+    "headerSearchResult",
+    "imagePreloadHappy",
+    "imagePreloadSad",
+    "jobsRemove",
+    "jokeA",
+    "jokeB",
+    "jokeBottomBar",
+    "jokeEmoji",
+    "landscapeRemove",
+    "lba",
+    "lbaAlternative",
+    "lbaJokes",
+    "lbaTop",
+    "lcp",
+    "limerickA",
+    "limerickB",
+    "limerickBottomBar",
+    "limerickContainer",
+    "limerickEmoji",
+    "loadingGamesExpander",
+    "logo",
+    "logoAudio",
+    "logoContainer",
+    "logoLeftShine",
+    "logoLensFlareA",
+    "logoLensFlareB",
+    "logoRightShadow",
+    "logoSpinner",
+    "loveTesterA",
+    "loveTesterB",
+    "loveTesterEmoji",
+    "mathRemove",
+    "opticalIllusion",
+    "opticalIllusionBottomBar",
+    "opticalIllusionImage",
+    "opticalIllusionMessage",
+    "performanceAlert",
+    "platformRemove",
+    "pleaseRateStory",
+    "portraitRemove",
+    "promo-overlay",
+    "puzzle",
+    "puzzleBottomBar",
+    "puzzleImage",
+    "puzzleImagePreload",
+    "puzzleMessage",
+    "quizRemove",
+    "reactionTestA",
+    "reactionTestB",
+    "reactionTestFaces",
+    "reactionTestText",
+    "riddleA",
+    "riddleB",
+    "riddleChangeDifficulty",
+    "riddleContainer",
+    "riddleEmoji",
+    "scrollToPlay",
+    "searchBox",
+    "searchBoxContainer",
+    "searchButton",
+    "searchResultText",
+    "secretButton",
+    "secretButton2",
+    "shootingRemove",
+    "siteDescription",
+    "sound0",
+    "sound1",
+    "sound2",
+    "sound3",
+    "sound4",
+    "sound5",
+    "sound6",
+    "sound7",
+    "sound8",
+    "sound9",
+    "soundBoardA",
+    "soundBoardB",
+    "storyA",
+    "storyAudio",
+    "storyB",
+    "storyBottomBar",
+    "storyC",
+    "storyContainer",
+    "storyD",
+    "storyDescription1",
+    "storyDescription2",
+    "storyEmoji",
+    "storyIdea",
+    "storyInfoButton",
+    "storyNextButton",
+    "storyPlayPauseButton",
+    "storyPrevButton",
+    "storyTitle",
+    "storyTitleContainer",
+    "streetArt",
+    "streetArtBottomBar",
+    "streetArtImage",
+    "todaysDate",
+    "todaysDateEmoji1",
+    "todaysDateEmoji2",
+    "tongueTwisterA",
+    "tongueTwisterB",
+    "tongueTwisterBottomBar",
+    "tongueTwisterContainer",
+    "tongueTwisterEmoji",
+    "topDailyJoke",
+    "topPromoButton1",
+    "topPromoButtonsContainer",
+    "topPromoTextLink",
+    "userAlert",
+    "welcome",
+    "wordRemove",
+    "xmasRemove"
+   ],
+   "G01": {
+    "w": 370,
+    "h": 110,
+    "border": "outset 5px",
+    "radius": "30px 70px 30px 50px"
+   },
+   "G02": 3,
+   "G03": [
+    "gameThumbLoading1",
+    "gameThumbLoading2",
+    "gameThumbLoading3",
+    "gameThumbLoading4",
+    "gameThumbLoading5",
+    "gameThumbLoading6",
+    "gameThumbLoading7"
+   ],
+   "G05": {
+    "color": "rgb(255, 255, 255)",
+    "position": "absolute",
+    "top": "2px",
+    "left": "10.7969px"
+   },
+   "G06": "gameTitle",
+   "G07": true,
+   "G11": true,
+   "G12": true,
+   "G13": true,
+   "G15": {
+    "top10AreLowestPop": true,
+    "restSortedByPop": true,
+    "allShownMatchGames": true
+   },
+   "G21": true,
+   "E15": {
+    "shape": true
+   },
+   "LS": [
+    "dressupCounter",
+    "frivExtraTimer",
+    "gamePlays",
+    "gfxPerformance",
+    "niceColour1",
+    "niceColour2",
+    "randomAssignment",
+    "visitsCounter"
+   ],
+   "F01": "Play unblocked games at Friv! We have only the very best free online games, and they work on any device. There are no ad interruptions, so just start playing!",
+   "F02": "none",
+   "F03": 2,
+   "F04": "Copyright © N - N. Friv. All Rights Reserved. This is a genuine Friv site.",
+   "F05": [
+    "privacy.html",
+    "help.html",
+    "help.html#about",
+    "help.html#faqs",
+    "help.html#fakes",
+    "help.html#oldfriv"
+   ],
+   "S01": {
+    "display": "block",
+    "bg": "rgb(51, 0, 102)",
+    "result": ""
+   },
+   "S02": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "0-9"
+   ],
+   "S03": [
+    "2 Player",
+    "3D",
+    "Action",
+    "Adventure",
+    "Dressup",
+    "Combat",
+    "Creative",
+    "Food",
+    "Halloween",
+    "Jobs",
+    "Motorsport",
+    "New",
+    "Platform",
+    "Puzzle",
+    "Shooting",
+    "Sport",
+    "All Games A-Z"
+   ],
+   "S05": {
+    "shape": "N game(s) found starting with C.",
+    "countMatchesTiles": true
+   },
+   "S11": {
+    "panelHidden": true,
+    "nearLogo": true
+   },
+   "S06": {
+    "shape": "N game(s) found starting with N-N.",
+    "countMatchesTiles": true
+   },
+   "S07": {
+    "shape": "N Puzzle game(s) found.",
+    "countMatchesTiles": true
+   },
+   "S08": [
+    {
+     "shape": "N compatible N Player game(s) found.",
+     "countMatchesTiles": true
+    },
+    {
+     "shape": "N New / recently added game(s) found.",
+     "countMatchesTiles": true
+    }
+   ],
+   "S09": {
+    "shape": "All games A-Z: N.",
+    "countMatchesTiles": true
+   },
+   "G16": true,
+   "S10": {
+    "msg": "Sorry. No games found. Please search again.",
+    "tiles": 0
+   },
+   "S12": {
+    "shape": "N Dressup game(s) found.",
+    "countMatchesTiles": true
+   },
+   "C01": {
+    "gradient": true,
+    "saved": true
+   },
+   "C02": true,
+   "C03": "linear-gradient(indigo, navy)",
+   "E02": {
+    "title": "### HACK ###",
+    "moreTiles": true,
+    "moreGames": false
+   },
+   "E13": 1,
+   "D01": "It's Monday 19th October!",
+   "D-LABELS": {
+    "famousQuote": "Daily Famous Quote",
+    "jokeA": "Daily Joke",
+    "frivolousFact": "Today's Frivolous Fact",
+    "riddleA": "Daily Riddle",
+    "limerickA": "Tap For Daily Limerick",
+    "tongueTwisterA": "Tap For Daily",
+    "chiptune": "Tap To Play / Pause",
+    "cutePicture": "Tap For",
+    "amazingPicture": "Tap For",
+    "streetArt": "Tap For",
+    "dailyGIF": "Tap For",
+    "opticalIllusion": "Tap For",
+    "funnyVideo": "Tap For",
+    "puzzle": "Tap For",
+    "soundBoardA": "Tap For",
+    "storyA": "Tap For Daily",
+    "reactionTestA": "Tap For",
+    "loveTesterA": "Tap For"
+   },
+   "D04": [
+    "Chiptune Playing",
+    "Chiptune Paused"
+   ],
+   "D08": {
+    "label": "Daily GIFs",
+    "message": "Tap to see all\nN daily GIFs"
+   },
+   "D06": {
+    "message": "Look carefully at these N X. Which is the odd one out?\n\nTap to close.\nTap Tap Tap for the answer!",
+    "visibleAfterOpen": true
+   },
+   "D09": {
+    "answered": true
+   },
+   "D16": [
+    "Today's Hard Riddle",
+    "Today's Extra Hard Riddle",
+    "Today's Riddle"
+   ],
+   "D17": true,
+   "D19": true,
+   "D18": {
+    "message": true,
+    "transforms": [
+     "none",
+     "scaleY(-1)",
+     "scaleY(1)",
+     "rotate(180deg)",
+     "rotate(360deg)"
+    ]
+   },
+   "D20": {
+    "controls": true,
+    "meta": true,
+    "info": true
+   },
+   "D11": {
+    "instructions": "You will see four faces like these...\n\nTap the HAPPY face as fast as you can. Take this test daily to improve your score.\n\nTap To Start!",
+    "afterStart": "Wait!"
+   },
+   "D22": "✅",
+   "D15": {
+    "intro": "Enter two first names in the boxes below and then click on the button to calculate the lurve! 😍\n\n\ninfo\n\nCALCULATE!",
+    "ph": [
+     "ENTER YOUR NAME",
+     "ENTER ANOTHER NAME",
+     14,
+     12,
+     "CALCULATE!"
+    ],
+    "invalid": "@#?*!",
+    "anim": true,
+    "result": "Ana + Bruno\nYou like each other. Maybe keep it as just friends?\n43%\nTRY AGAINTWEET"
+   },
+   "P01": "GAME | No Ads | Play At Friv® 🕹️",
+   "P03": {
+    "spinnerVisible": true,
+    "mb": true
+   },
+   "P04": "6s linear 1.5s 1 normal forwards running infoBoxLoadingBar",
+   "P05": "0s linear 6s 1 normal forwards running playButtonShow, 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) 15s 1 normal none running shake1",
+   "P03b": "2s linear 0s infinite normal forwards running spinner, 0s linear 6s 1 normal forwards running spinnerRemove",
+   "P10": true,
+   "P15": "hidden",
+   "P21": true,
+   "P11": {
+    "unchangedBefore22s": true,
+    "rewrittenBy24s": true,
+    "restored": true
+   },
+   "P12": {
+    "overlay": "none",
+    "iframe": true
+   },
+   "P19": {
+    "at99s": 0,
+    "at101s": 1
+   },
+   "P14": "/",
+   "M-H22": {
+    "text": "▼ SCROLL TO PLAY! ▼",
+    "shown": true
+   },
+   "M-G02": 1,
+   "M-G14": true,
+   "M-S04": {
+    "landscape": true,
+    "portrait": true,
+    "jobs": false,
+    "platform": false,
+    "halloween": true
+   },
+   "M-P09": "none",
+   "PT": {
+    "vis": {
+     "famousQuote": false,
+     "frivolousFact": false,
+     "jokeA": false,
+     "riddleA": false,
+     "limerickA": false,
+     "tongueTwisterA": false,
+     "storyA": false,
+     "chiptune": true,
+     "reactionTestA": true,
+     "loveTesterA": true,
+     "opticalIllusion": true
+    },
+    "love": [
+     "CALCULAR!",
+     "ESCREVA O SEU NOME",
+     "ESCREVA OUTRO NOME",
+     "none"
+    ]
+   },
+   "R01": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "R03": "Reloading...",
+   "R05": [
+    "P\n\nL\n\nA\n\nY\n\n!\n\nSorry - there was an error with this game.",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "Sorry - there was an error with this game."
+   ],
+   "R05b": {
+    "title": "Test Game",
+    "footer": "Click to play Test Game",
+    "bottom": "This game is rated PG-13.\nSome games are hosted externally. We are not responsible for the content and policies of other sites."
+   },
+   "R06": "/",
+   "R07": {
+    "status": 404,
+    "text": "Error 404 - File Not Found."
+   },
+   "R08": {
+    "cacheControl": "max-age=7200, public",
+    "etag": true,
+    "lastModified": true
+   },
+   "R09": {
+    "robots": 200,
+    "sitemap": 200,
+    "manifest": 200
+   }
+  },
+  "log": [
+   "[ref] home (desktop 1366×768): ok (13.6 s)",
+   "[ref] busca: ok (21.3 s)",
+   "[ref] seletor de cor: ok (10.6 s)",
+   "[ref] easter eggs (logo ×10, Enter): ok (11.5 s)",
+   "[ref] seção diária: ok (29.3 s)",
+   "[ref] página de jogo (relógio controlado): ok (5.9 s)",
+   "[ref] celular (iPhone 13): ok (12.4 s)",
+   "[ref] navegador pt-BR: ok (6.0 s)",
+   "[ref] páginas secundárias e HTTP: ok (6.3 s) pageerrors=[\"Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.\"]"
+  ]
+ },
+ "clone": {
+  "obs": {
+   "H01": "Jogatina | JOGATINA : The Best Free Games 🎃 Halloween",
+   "H02": {
+    "theme": "#600090",
+    "viewport": "width=device-width,initial-scale=1",
+    "og": true,
+    "twitter": false,
+    "canonical": true,
+    "ld": [
+     "Organization"
+    ]
+   },
+   "H03": {
+    "svg": true,
+    "png": true,
+    "apple": true,
+    "mask": true,
+    "manifest": true
+   },
+   "H05": "linear-gradient(rgb(75, 0, 130), rgb(0, 0, 128))",
+   "H06": {
+    "hOverVw": 30,
+    "capVh": true,
+    "bg": "linear-gradient(172.8deg, rgb(68, 0, 170"
+   },
+   "H07": {
+    "cursor": "pointer",
+    "rotate": true
+   },
+   "H10": "block",
+   "H12": {
+    "nearRight": true,
+    "nearTop": true
+   },
+   "H13": true,
+   "H15": "none",
+   "H16": "linear-gradient(to right, rgb(255, 69, 0) 0%, rgb(255, 140, 0) 10%, rgb(255, 140, 0) 90%, rgb(255, 69, 0) 100%)",
+   "H17": {
+    "label": "Today's Halloween Joke - Click For The Answer",
+    "after": "Today's Halloween Joke",
+    "grew": true
+   },
+   "H20": "LOADING GAMES",
+   "H23": true,
+   "IDS": [
+    "GIFMessage",
+    "achievementSignifier",
+    "achievementSlider",
+    "amazingImage",
+    "amazingImageBottomBar",
+    "amazingPicture",
+    "bottomPoo",
+    "chiptune",
+    "chiptuneBottomBar",
+    "colourSelector",
+    "combatRemove",
+    "copyright",
+    "copyrightYear",
+    "cuteImage",
+    "cuteImageBottomBar",
+    "cutePicture",
+    "dBugBlinker",
+    "dBugText",
+    "dailyGIF",
+    "dailyGIFBottomBar",
+    "dailyGIFEmoji",
+    "dailyGIFImage",
+    "dateStrap",
+    "devoryGames",
+    "devoryGamesContent",
+    "devoryGamesMainTitle",
+    "dropGfx",
+    "famousQuote",
+    "famousQuoteBottomBar",
+    "famousQuoteEmoji",
+    "feedback",
+    "feedback1",
+    "feedbackIntroText",
+    "footerSection",
+    "frivDaily",
+    "frivDailyInner",
+    "frivTips",
+    "frivolousFact",
+    "frivolousFactBottomBar",
+    "frivolousFactEmoji",
+    "funnyVideo",
+    "funnyVideoBottomBar",
+    "funnyVideoBox",
+    "funnyVideoContainer",
+    "gamesBlock",
+    "gfxSpeedSquare",
+    "halloweenRemove",
+    "headerSearchResult",
+    "imagePreloadHappy",
+    "imagePreloadSad",
+    "jobsRemove",
+    "jokeA",
+    "jokeB",
+    "jokeBottomBar",
+    "jokeEmoji",
+    "landscapeRemove",
+    "lba",
+    "lbaJokes",
+    "lbaTop",
+    "lcp",
+    "lg",
+    "limerickA",
+    "limerickB",
+    "limerickBottomBar",
+    "limerickContainer",
+    "limerickEmoji",
+    "loadingGamesExpander",
+    "logo",
+    "logoContainer",
+    "logoLeftShine",
+    "logoLensFlareA",
+    "logoLensFlareB",
+    "logoRightShadow",
+    "logoSpinner",
+    "loveTesterA",
+    "loveTesterB",
+    "loveTesterEmoji",
+    "ls",
+    "mathRemove",
+    "opticalIllusion",
+    "opticalIllusionBottomBar",
+    "opticalIllusionImage",
+    "opticalIllusionMessage",
+    "performanceAlert",
+    "platformRemove",
+    "pleaseRateStory",
+    "portraitRemove",
+    "puzzle",
+    "puzzleBottomBar",
+    "puzzleImage",
+    "puzzleImagePreload",
+    "puzzleMessage",
+    "quizRemove",
+    "reactionTestA",
+    "reactionTestB",
+    "reactionTestFaces",
+    "reactionTestText",
+    "riddleA",
+    "riddleB",
+    "riddleChangeDifficulty",
+    "riddleContainer",
+    "riddleEmoji",
+    "scrollToPlay",
+    "searchBox",
+    "searchBoxContainer",
+    "searchButton",
+    "searchResultText",
+    "secretButton",
+    "secretButton2",
+    "shootingRemove",
+    "siteDescription",
+    "sound0",
+    "sound1",
+    "sound2",
+    "sound3",
+    "sound4",
+    "sound5",
+    "sound6",
+    "sound7",
+    "sound8",
+    "sound9",
+    "soundBoardA",
+    "soundBoardB",
+    "storyA",
+    "storyB",
+    "storyBottomBar",
+    "storyC",
+    "storyContainer",
+    "storyD",
+    "storyDescription1",
+    "storyDescription2",
+    "storyEmoji",
+    "storyIdea",
+    "storyInfoButton",
+    "storyNextButton",
+    "storyPlayPauseButton",
+    "storyPrevButton",
+    "storyProgress",
+    "storyProgressBar",
+    "storyTitle",
+    "storyTitleContainer",
+    "streetArt",
+    "streetArtBottomBar",
+    "streetArtImage",
+    "todaysDate",
+    "todaysDateEmoji1",
+    "todaysDateEmoji2",
+    "tongueTwisterA",
+    "tongueTwisterB",
+    "tongueTwisterBottomBar",
+    "tongueTwisterContainer",
+    "tongueTwisterEmoji",
+    "topDailyJoke",
+    "userAlert",
+    "welcome",
+    "wordRemove",
+    "xmasRemove"
+   ],
+   "G01": {
+    "w": 370,
+    "h": 110,
+    "border": "outset 5px",
+    "radius": "30px 70px 30px 50px"
+   },
+   "G02": 3,
+   "G03": [
+    "gameThumbLoading1",
+    "gameThumbLoading2",
+    "gameThumbLoading3",
+    "gameThumbLoading4",
+    "gameThumbLoading5",
+    "gameThumbLoading6",
+    "gameThumbLoading7"
+   ],
+   "G05": {
+    "color": "rgb(255, 255, 255)",
+    "position": "absolute",
+    "top": "2px",
+    "left": "10.7969px"
+   },
+   "G06": "gameTitle",
+   "G07": true,
+   "G11": true,
+   "G12": true,
+   "G13": true,
+   "G15": {
+    "top10AreLowestPop": true,
+    "restSortedByPop": true,
+    "allShownMatchGames": true
+   },
+   "G21": true,
+   "E15": {
+    "shape": true
+   },
+   "LS": [
+    "dressupCounter",
+    "frivExtraTimer",
+    "gamePlays",
+    "gfxPerformance",
+    "niceColour1",
+    "niceColour2",
+    "randomAssignment",
+    "visitsCounter"
+   ],
+   "F01": "Play unblocked games at Jogatina! We have only the very best free online games, and they work on any device. There are no ad interruptions, so just start playing!",
+   "F02": "none",
+   "F03": 2,
+   "F04": "Copyright © N - N. Jogatina. All Rights Reserved. This is a genuine Jogatina site.",
+   "F05": [
+    "privacy.html",
+    "help.html",
+    "help.html#about",
+    "help.html#faqs",
+    "help.html#fakes",
+    "help.html#oldfriv"
+   ],
+   "S01": {
+    "display": "block",
+    "bg": "rgb(51, 0, 102)",
+    "result": ""
+   },
+   "S02": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "0-9"
+   ],
+   "S03": [
+    "2 Player",
+    "3D",
+    "Action",
+    "Adventure",
+    "Dressup",
+    "Combat",
+    "Creative",
+    "Food",
+    "Halloween",
+    "Jobs",
+    "Motorsport",
+    "New",
+    "Platform",
+    "Puzzle",
+    "Shooting",
+    "Sport",
+    "All Games A-Z"
+   ],
+   "S05": {
+    "shape": "N game(s) found starting with C.",
+    "countMatchesTiles": true
+   },
+   "S11": {
+    "panelHidden": true,
+    "nearLogo": true
+   },
+   "S06": {
+    "shape": "N game(s) found starting with N-N.",
+    "countMatchesTiles": true
+   },
+   "S07": {
+    "shape": "N Puzzle game(s) found.",
+    "countMatchesTiles": true
+   },
+   "S08": [
+    {
+     "shape": "N compatible N Player game(s) found.",
+     "countMatchesTiles": true
+    },
+    {
+     "shape": "N New / recently added game(s) found.",
+     "countMatchesTiles": true
+    }
+   ],
+   "S09": {
+    "shape": "All games A-Z: N.",
+    "countMatchesTiles": true
+   },
+   "G16": true,
+   "S10": {
+    "msg": "Sorry. No games found. Please search again.",
+    "tiles": 0
+   },
+   "S12": {
+    "shape": "N Dressup game(s) found.",
+    "countMatchesTiles": true
+   },
+   "C01": {
+    "gradient": true,
+    "saved": true
+   },
+   "C02": true,
+   "C03": "linear-gradient(indigo, navy)",
+   "E02": {
+    "title": "### HACK ###",
+    "moreTiles": true,
+    "moreGames": false
+   },
+   "E13": 1,
+   "D01": "It's Monday 19th October!",
+   "D-LABELS": {
+    "famousQuote": "Daily Famous Quote",
+    "jokeA": "Daily Joke",
+    "frivolousFact": "Today's Frivolous Fact",
+    "riddleA": "Daily Riddle",
+    "limerickA": "Tap For Daily Limerick",
+    "tongueTwisterA": "Tap For Daily",
+    "chiptune": "Tap To Play / Pause",
+    "cutePicture": "Tap For",
+    "amazingPicture": "Tap For",
+    "streetArt": "Tap For",
+    "dailyGIF": "Tap For",
+    "opticalIllusion": "Tap For",
+    "funnyVideo": "Tap For",
+    "puzzle": "Tap For",
+    "soundBoardA": "Tap For",
+    "storyA": "Tap For Daily",
+    "reactionTestA": "Tap For",
+    "loveTesterA": "Tap For"
+   },
+   "D04": [
+    "Chiptune Playing",
+    "Chiptune Paused"
+   ],
+   "D08": {
+    "label": "Daily GIFs",
+    "message": "Tap to see all\nN daily GIFs"
+   },
+   "D06": {
+    "message": "Look carefully at these N X. Which is the odd one out?\n\nTap to close.\nTap Tap Tap for the answer!",
+    "visibleAfterOpen": true
+   },
+   "D09": {
+    "answered": true
+   },
+   "D16": [
+    "Today's Hard Riddle",
+    "Today's Extra Hard Riddle",
+    "Today's Riddle"
+   ],
+   "D17": true,
+   "D19": true,
+   "D18": {
+    "message": true,
+    "transforms": [
+     "none",
+     "scaleY(-1)",
+     "scaleY(1)",
+     "rotate(180deg)",
+     "rotate(360deg)"
+    ]
+   },
+   "D20": {
+    "controls": true,
+    "meta": true,
+    "info": true
+   },
+   "D11": {
+    "instructions": "You will see four faces like these...\n\nTap the HAPPY face as fast as you can. Take this test daily to improve your score.\n\nTap To Start!",
+    "afterStart": "Wait!"
+   },
+   "D22": "✅",
+   "D15": {
+    "intro": "Enter two first names in the boxes below and then click on the button to calculate the lurve! 😍\n\n\ninfo\n\nCALCULATE!",
+    "ph": [
+     "ENTER YOUR NAME",
+     "ENTER ANOTHER NAME",
+     14,
+     12,
+     "CALCULATE!"
+    ],
+    "invalid": "@#?*!",
+    "anim": true,
+    "result": "Ana + Bruno\nYou like each other. Maybe keep it as just friends?\n43%\nTRY AGAINTWEET"
+   },
+   "P01": "GAME | No Ads | Play At Jogatina 🕹️",
+   "P03": {
+    "spinnerVisible": true,
+    "mb": true
+   },
+   "P04": "6s linear 1.5s 1 normal forwards running infoBoxLoadingBar",
+   "P05": "0s linear 6s 1 normal forwards running playButtonShow, 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) 15s 1 normal none running shake1",
+   "P03b": "2s linear 0s infinite normal forwards running spinner, 0s linear 6s 1 normal forwards running spinnerRemove",
+   "P10": true,
+   "P15": "hidden",
+   "P21": true,
+   "P11": {
+    "unchangedBefore22s": true,
+    "rewrittenBy24s": true,
+    "restored": true
+   },
+   "P12": {
+    "overlay": "none",
+    "iframe": true
+   },
+   "P19": {
+    "at99s": 0,
+    "at101s": 1
+   },
+   "P14": "/",
+   "M-H22": {
+    "text": "▼ SCROLL TO PLAY! ▼",
+    "shown": true
+   },
+   "M-G02": 1,
+   "M-G14": true,
+   "M-S04": {
+    "landscape": true,
+    "portrait": true,
+    "jobs": false,
+    "platform": false,
+    "halloween": true
+   },
+   "M-P09": "none",
+   "PT": {
+    "vis": {
+     "famousQuote": false,
+     "frivolousFact": false,
+     "jokeA": false,
+     "riddleA": false,
+     "limerickA": false,
+     "tongueTwisterA": false,
+     "storyA": false,
+     "chiptune": true,
+     "reactionTestA": true,
+     "loveTesterA": true,
+     "opticalIllusion": true
+    },
+    "love": [
+     "CALCULAR!",
+     "ESCREVA O SEU NOME",
+     "ESCREVA OUTRO NOME",
+     "none"
+    ]
+   },
+   "R01": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "R03": "Reloading...",
+   "R05": [
+    "P\n\nL\n\nA\n\nY\n\n!\n\nSorry - there was an error with this game.",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "Sorry - there was an error with this game."
+   ],
+   "R05b": {
+    "title": "Test Game",
+    "footer": "Click to play Test Game",
+    "bottom": "This game is rated PG-13.\nSome games are hosted externally. We are not responsible for the content and policies of other sites."
+   },
+   "R06": "/",
+   "R07": {
+    "status": 404,
+    "text": "Error 404 - File Not Found."
+   },
+   "R08": {
+    "cacheControl": "max-age=7200, public",
+    "etag": true,
+    "lastModified": true
+   },
+   "R09": {
+    "robots": 200,
+    "sitemap": 200,
+    "manifest": 200
+   }
+  },
+  "log": [
+   "[clone] home (desktop 1366×768): ok (12.3 s)",
+   "[clone] busca: ok (20.1 s)",
+   "[clone] seletor de cor: ok (9.8 s)",
+   "[clone] easter eggs (logo ×10, Enter): ok (10.0 s)",
+   "[clone] seção diária: ok (28.4 s)",
+   "[clone] página de jogo (relógio controlado): ok (29.0 s)",
+   "[clone] celular (iPhone 13): ok (11.6 s)",
+   "[clone] navegador pt-BR: ok (5.3 s)",
+   "[clone] páginas secundárias e HTTP: ok (4.2 s) pageerrors=[\"Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.\"]"
+  ]
+ },
+ "rows": [
+  {
+   "id": "H01",
+   "name": "título da aba (sufixo sazonal)",
+   "mode": "eq",
+   "ref": "BRAND | BRAND : The Best Free Games 🎃 Halloween",
+   "clone": "BRAND | BRAND : The Best Free Games 🎃 Halloween",
+   "status": "OK"
+  },
+  {
+   "id": "H02",
+   "name": "metadados (theme-color, viewport, OG, Twitter, canonical, JSON-LD)",
+   "mode": "eq",
+   "ref": {
+    "theme": "#600090",
+    "viewport": "width=device-width,initial-scale=1",
+    "og": true,
+    "twitter": false,
+    "canonical": true,
+    "ld": [
+     "Organization"
+    ]
+   },
+   "clone": {
+    "theme": "#600090",
+    "viewport": "width=device-width,initial-scale=1",
+    "og": true,
+    "twitter": false,
+    "canonical": true,
+    "ld": [
+     "Organization"
+    ]
+   },
+   "status": "OK"
+  },
+  {
+   "id": "H03",
+   "name": "favicons e manifest",
+   "mode": "eq",
+   "ref": {
+    "svg": true,
+    "png": true,
+    "apple": true,
+    "mask": true,
+    "manifest": true
+   },
+   "clone": {
+    "svg": true,
+    "png": true,
+    "apple": true,
+    "mask": true,
+    "manifest": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "H05",
+   "name": "fundo inicial do body",
+   "mode": "eq",
+   "ref": "linear-gradient(rgb(75, 0, 130), rgb(0, 0, 128))",
+   "clone": "linear-gradient(rgb(75, 0, 130), rgb(0, 0, 128))",
+   "status": "OK"
+  },
+  {
+   "id": "H06",
+   "name": "área do logo (altura, gradiente)",
+   "mode": "eq",
+   "ref": {
+    "hOverVw": 30,
+    "capVh": true,
+    "bg": "linear-gradient(172.8deg, rgb(68, 0, 170"
+   },
+   "clone": {
+    "hOverVw": 30,
+    "capVh": true,
+    "bg": "linear-gradient(172.8deg, rgb(68, 0, 170"
+   },
+   "status": "OK"
+  },
+  {
+   "id": "H07",
+   "name": "logo: rotação e cursor",
+   "mode": "eq",
+   "ref": {
+    "cursor": "pointer",
+    "rotate": true
+   },
+   "clone": {
+    "cursor": "pointer",
+    "rotate": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "H10",
+   "name": "boas-vindas some no Halloween",
+   "mode": "eq",
+   "ref": "block",
+   "clone": "block",
+   "status": "OK"
+  },
+  {
+   "id": "H12",
+   "name": "botão de busca no canto superior direito",
+   "mode": "eq",
+   "ref": {
+    "nearRight": true,
+    "nearTop": true
+   },
+   "clone": {
+    "nearRight": true,
+    "nearTop": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "H13",
+   "name": "seletor de cor presente",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "H15",
+   "name": "barra -ADVERTISEMENT- e bloco de anúncio",
+   "mode": "excluded",
+   "ref": "block",
+   "clone": "none",
+   "status": "excluído",
+   "note": "sem anúncios no clone; o original oculta as barras quando o script de anúncio não carrega"
+  },
+  {
+   "id": "H16",
+   "name": "gradiente da barra de piada (Halloween)",
+   "mode": "eq",
+   "ref": "linear-gradient(to right, rgb(255, 69, 0) 0%, rgb(255, 140, 0) 10%, rgb(255, 140, 0) 90%, rgb(255, 69, 0) 100%)",
+   "clone": "linear-gradient(to right, rgb(255, 69, 0) 0%, rgb(255, 140, 0) 10%, rgb(255, 140, 0) 90%, rgb(255, 69, 0) 100%)",
+   "status": "OK"
+  },
+  {
+   "id": "H17",
+   "name": "piada: rótulo, clique revela resposta e muda o rótulo",
+   "mode": "eq",
+   "ref": {
+    "label": "Today's Halloween Joke - Click For The Answer",
+    "after": "Today's Halloween Joke",
+    "grew": true
+   },
+   "clone": {
+    "label": "Today's Halloween Joke - Click For The Answer",
+    "after": "Today's Halloween Joke",
+    "grew": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "H20",
+   "name": "texto LOADING GAMES",
+   "mode": "eq",
+   "ref": "LOADING GAMES",
+   "clone": "LOADING GAMES",
+   "status": "OK"
+  },
+  {
+   "id": "H23",
+   "name": "menu de contexto bloqueado",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "IDS",
+   "name": "IDs de elementos da home usados pelos scripts",
+   "mode": "eq",
+   "ref": [],
+   "clone": [],
+   "status": "OK",
+   "note": "exceto áudio sintetizado e promoções de terceiros"
+  },
+  {
+   "id": "G01",
+   "name": "bloco de jogo: tamanho, borda, cantos",
+   "mode": "eq",
+   "ref": {
+    "w": 370,
+    "h": 110,
+    "border": "outset 5px",
+    "radius": "30px 70px 30px 50px"
+   },
+   "clone": {
+    "w": 370,
+    "h": 110,
+    "border": "outset 5px",
+    "radius": "30px 70px 30px 50px"
+   },
+   "status": "OK"
+  },
+  {
+   "id": "G02",
+   "name": "blocos por linha (1366 px)",
+   "mode": "eq",
+   "ref": 3,
+   "clone": 3,
+   "status": "OK"
+  },
+  {
+   "id": "G03",
+   "name": "cores de carregamento (classes)",
+   "mode": "eq",
+   "ref": [
+    "gameThumbLoading1",
+    "gameThumbLoading2",
+    "gameThumbLoading3",
+    "gameThumbLoading4",
+    "gameThumbLoading5",
+    "gameThumbLoading6",
+    "gameThumbLoading7"
+   ],
+   "clone": [
+    "gameThumbLoading1",
+    "gameThumbLoading2",
+    "gameThumbLoading3",
+    "gameThumbLoading4",
+    "gameThumbLoading5",
+    "gameThumbLoading6",
+    "gameThumbLoading7"
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "G05",
+   "name": "nome do jogo: cor e posição",
+   "mode": "eq",
+   "ref": {
+    "color": "rgb(255, 255, 255)",
+    "position": "absolute",
+    "top": "2px",
+    "left": "10.7969px"
+   },
+   "clone": {
+    "color": "rgb(255, 255, 255)",
+    "position": "absolute",
+    "top": "2px",
+    "left": "10.7969px"
+   },
+   "status": "OK"
+  },
+  {
+   "id": "G06",
+   "name": "animação de entrada do nome",
+   "mode": "eq",
+   "ref": "gameTitle",
+   "clone": "gameTitle",
+   "status": "OK"
+  },
+  {
+   "id": "G07",
+   "name": "brilho em todo bloco",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "G11",
+   "name": "link do bloco: z/games/<slug>/game.html",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "G12",
+   "name": "selo NEW presente",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "G13",
+   "name": "selo de Halloween presente",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "G15",
+   "name": "ordem inicial: top 10 por popularidade embaralhados, resto por popularidade",
+   "mode": "eq",
+   "ref": {
+    "top10AreLowestPop": true,
+    "restSortedByPop": true,
+    "allShownMatchGames": true
+   },
+   "clone": {
+    "top10AreLowestPop": true,
+    "restSortedByPop": true,
+    "allShownMatchGames": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "G16",
+   "name": "ordem alfabética após busca",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "G21",
+   "name": "botões secretos após o último jogo",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "S01",
+   "name": "abrir busca: painel cheio #306",
+   "mode": "eq",
+   "ref": {
+    "display": "block",
+    "bg": "rgb(51, 0, 102)",
+    "result": ""
+   },
+   "clone": {
+    "display": "block",
+    "bg": "rgb(51, 0, 102)",
+    "result": ""
+   },
+   "status": "OK"
+  },
+  {
+   "id": "S02",
+   "name": "botões de letra",
+   "mode": "eq",
+   "ref": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "0-9"
+   ],
+   "clone": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "0-9"
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "S03",
+   "name": "botões de categoria (desktop, Halloween)",
+   "mode": "eq",
+   "ref": [
+    "2 Player",
+    "3D",
+    "Action",
+    "Adventure",
+    "Dressup",
+    "Combat",
+    "Creative",
+    "Food",
+    "Halloween",
+    "Jobs",
+    "Motorsport",
+    "New",
+    "Platform",
+    "Puzzle",
+    "Shooting",
+    "Sport",
+    "All Games A-Z"
+   ],
+   "clone": [
+    "2 Player",
+    "3D",
+    "Action",
+    "Adventure",
+    "Dressup",
+    "Combat",
+    "Creative",
+    "Food",
+    "Halloween",
+    "Jobs",
+    "Motorsport",
+    "New",
+    "Platform",
+    "Puzzle",
+    "Shooting",
+    "Sport",
+    "All Games A-Z"
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "S05",
+   "name": "busca por letra: mensagem e contagem",
+   "mode": "eq",
+   "ref": {
+    "shape": "N game(s) found starting with C.",
+    "countMatchesTiles": true
+   },
+   "clone": {
+    "shape": "N game(s) found starting with C.",
+    "countMatchesTiles": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "S06",
+   "name": "busca 0-9",
+   "mode": "eq",
+   "ref": {
+    "shape": "N game(s) found starting with N-N.",
+    "countMatchesTiles": true
+   },
+   "clone": {
+    "shape": "N game(s) found starting with N-N.",
+    "countMatchesTiles": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "S07",
+   "name": "busca por categoria",
+   "mode": "eq",
+   "ref": {
+    "shape": "N Puzzle game(s) found.",
+    "countMatchesTiles": true
+   },
+   "clone": {
+    "shape": "N Puzzle game(s) found.",
+    "countMatchesTiles": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "S08",
+   "name": "rótulos especiais (2 Player, New)",
+   "mode": "eq",
+   "ref": [
+    {
+     "shape": "N compatible N Player game(s) found.",
+     "countMatchesTiles": true
+    },
+    {
+     "shape": "N New / recently added game(s) found.",
+     "countMatchesTiles": true
+    }
+   ],
+   "clone": [
+    {
+     "shape": "N compatible N Player game(s) found.",
+     "countMatchesTiles": true
+    },
+    {
+     "shape": "N New / recently added game(s) found.",
+     "countMatchesTiles": true
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "S09",
+   "name": "todos os jogos A-Z",
+   "mode": "eq",
+   "ref": {
+    "shape": "All games A-Z: N.",
+    "countMatchesTiles": true
+   },
+   "clone": {
+    "shape": "All games A-Z: N.",
+    "countMatchesTiles": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "S10",
+   "name": "busca sem resultado",
+   "mode": "eq",
+   "ref": {
+    "msg": "Sorry. No games found. Please search again.",
+    "tiles": 0
+   },
+   "clone": {
+    "msg": "Sorry. No games found. Please search again.",
+    "tiles": 0
+   },
+   "status": "OK"
+  },
+  {
+   "id": "S11",
+   "name": "após buscar: painel fecha e rola até o logo",
+   "mode": "eq",
+   "ref": {
+    "panelHidden": true,
+    "nearLogo": true
+   },
+   "clone": {
+    "panelHidden": true,
+    "nearLogo": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "S12",
+   "name": "categoria Dressup",
+   "mode": "eq",
+   "ref": {
+    "shape": "N Dressup game(s) found.",
+    "countMatchesTiles": true
+   },
+   "clone": {
+    "shape": "N Dressup game(s) found.",
+    "countMatchesTiles": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "C01",
+   "name": "seletor de cor: sorteio e localStorage",
+   "mode": "eq",
+   "ref": {
+    "gradient": true,
+    "saved": true
+   },
+   "clone": {
+    "gradient": true,
+    "saved": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "C02",
+   "name": "cor persiste ao recarregar",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "C03",
+   "name": "10º clique volta a indigo/navy",
+   "mode": "eq",
+   "ref": "linear-gradient(indigo, navy)",
+   "clone": "linear-gradient(indigo, navy)",
+   "status": "OK"
+  },
+  {
+   "id": "E02",
+   "name": "logo ×10: HACK, mais jogos, MORE GAMES",
+   "mode": "eq",
+   "ref": {
+    "title": "### HACK ###",
+    "moreTiles": true,
+    "moreGames": false
+   },
+   "clone": {
+    "title": "### HACK ###",
+    "moreTiles": true,
+    "moreGames": false
+   },
+   "status": "OK"
+  },
+  {
+   "id": "E13",
+   "name": "Enter soma gamePlays",
+   "mode": "eq",
+   "ref": 1,
+   "clone": 1,
+   "status": "OK"
+  },
+  {
+   "id": "E15",
+   "name": "linha de diagnóstico do rodapé",
+   "mode": "eq",
+   "ref": {
+    "shape": true
+   },
+   "clone": {
+    "shape": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "LS",
+   "name": "chaves do localStorage após a 1ª visita",
+   "mode": "eq",
+   "ref": [
+    "dressupCounter",
+    "frivExtraTimer",
+    "gamePlays",
+    "gfxPerformance",
+    "niceColour1",
+    "niceColour2",
+    "randomAssignment",
+    "visitsCounter"
+   ],
+   "clone": [
+    "dressupCounter",
+    "frivExtraTimer",
+    "gamePlays",
+    "gfxPerformance",
+    "niceColour1",
+    "niceColour2",
+    "randomAssignment",
+    "visitsCounter"
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "D01",
+   "name": "cabeçalho da seção diária",
+   "mode": "eq",
+   "ref": "It's Monday 19th October!",
+   "clone": "It's Monday 19th October!",
+   "status": "OK"
+  },
+  {
+   "id": "D-LABELS",
+   "name": "rótulos iniciais das 18 seções diárias",
+   "mode": "eq",
+   "ref": {
+    "famousQuote": "Daily Famous Quote",
+    "jokeA": "Daily Joke",
+    "frivolousFact": "Today's BRANDolous Fact",
+    "riddleA": "Daily Riddle",
+    "limerickA": "Tap For Daily Limerick",
+    "tongueTwisterA": "Tap For Daily",
+    "chiptune": "Tap To Play / Pause",
+    "cutePicture": "Tap For",
+    "amazingPicture": "Tap For",
+    "streetArt": "Tap For",
+    "dailyGIF": "Tap For",
+    "opticalIllusion": "Tap For",
+    "funnyVideo": "Tap For",
+    "puzzle": "Tap For",
+    "soundBoardA": "Tap For",
+    "storyA": "Tap For Daily",
+    "reactionTestA": "Tap For",
+    "loveTesterA": "Tap For"
+   },
+   "clone": {
+    "famousQuote": "Daily Famous Quote",
+    "jokeA": "Daily Joke",
+    "frivolousFact": "Today's BRANDolous Fact",
+    "riddleA": "Daily Riddle",
+    "limerickA": "Tap For Daily Limerick",
+    "tongueTwisterA": "Tap For Daily",
+    "chiptune": "Tap To Play / Pause",
+    "cutePicture": "Tap For",
+    "amazingPicture": "Tap For",
+    "streetArt": "Tap For",
+    "dailyGIF": "Tap For",
+    "opticalIllusion": "Tap For",
+    "funnyVideo": "Tap For",
+    "puzzle": "Tap For",
+    "soundBoardA": "Tap For",
+    "storyA": "Tap For Daily",
+    "reactionTestA": "Tap For",
+    "loveTesterA": "Tap For"
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D04",
+   "name": "chiptune: rótulos tocar/pausar",
+   "mode": "eq",
+   "ref": [
+    "Chiptune Playing",
+    "Chiptune Paused"
+   ],
+   "clone": [
+    "Chiptune Playing",
+    "Chiptune Paused"
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "D06",
+   "name": "quebra-cabeça: mensagem e toques",
+   "mode": "eq",
+   "ref": {
+    "message": "Look carefully at these N X. Which is the odd one out?\n\nTap to close.\nTap Tap Tap for the answer!",
+    "visibleAfterOpen": true
+   },
+   "clone": {
+    "message": "Look carefully at these N X. Which is the odd one out?\n\nTap to close.\nTap Tap Tap for the answer!",
+    "visibleAfterOpen": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D08",
+   "name": "GIFs: rótulos",
+   "mode": "eq",
+   "ref": {
+    "label": "Daily GIFs",
+    "message": "Tap to see all\nN daily GIFs"
+   },
+   "clone": {
+    "label": "Daily GIFs",
+    "message": "Tap to see all\nN daily GIFs"
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D09",
+   "name": "piada do dia: revela resposta",
+   "mode": "eq",
+   "ref": {
+    "answered": true
+   },
+   "clone": {
+    "answered": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D11",
+   "name": "teste de reação: instruções e rodada",
+   "mode": "eq",
+   "ref": {
+    "instructions": "You will see four faces like these...\n\nTap the HAPPY face as fast as you can. Take this test daily to improve your score.\n\nTap To Start!",
+    "afterStart": "Wait!"
+   },
+   "clone": {
+    "instructions": "You will see four faces like these...\n\nTap the HAPPY face as fast as you can. Take this test daily to improve your score.\n\nTap To Start!",
+    "afterStart": "Wait!"
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D15",
+   "name": "teste do amor: fluxo completo",
+   "mode": "eq",
+   "ref": {
+    "intro": "Enter two first names in the boxes below and then click on the button to calculate the lurve! 😍\n\n\ninfo\n\nCALCULATE!",
+    "ph": [
+     "ENTER YOUR NAME",
+     "ENTER ANOTHER NAME",
+     14,
+     12,
+     "CALCULATE!"
+    ],
+    "invalid": "@#?*!",
+    "anim": true,
+    "result": "Ana + Bruno\nYou like each other. Maybe keep it as just friends?\n43%\nTRY AGAINTWEET"
+   },
+   "clone": {
+    "intro": "Enter two first names in the boxes below and then click on the button to calculate the lurve! 😍\n\n\ninfo\n\nCALCULATE!",
+    "ph": [
+     "ENTER YOUR NAME",
+     "ENTER ANOTHER NAME",
+     14,
+     12,
+     "CALCULATE!"
+    ],
+    "invalid": "@#?*!",
+    "anim": true,
+    "result": "Ana + Bruno\nYou like each other. Maybe keep it as just friends?\n43%\nTRY AGAINTWEET"
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D16",
+   "name": "charada: ciclo de dificuldade",
+   "mode": "eq",
+   "ref": [
+    "Today's Hard Riddle",
+    "Today's Extra Hard Riddle",
+    "Today's Riddle"
+   ],
+   "clone": [
+    "Today's Hard Riddle",
+    "Today's Extra Hard Riddle",
+    "Today's Riddle"
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "D17",
+   "name": "limerique abre",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "D18",
+   "name": "ilusão de ótica: sequência de transformações",
+   "mode": "eq",
+   "ref": {
+    "message": true,
+    "transforms": [
+     "none",
+     "scaleY(-1)",
+     "scaleY(1)",
+     "rotate(180deg)",
+     "rotate(360deg)"
+    ]
+   },
+   "clone": {
+    "message": true,
+    "transforms": [
+     "none",
+     "scaleY(-1)",
+     "scaleY(1)",
+     "rotate(180deg)",
+     "rotate(360deg)"
+    ]
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D19",
+   "name": "trava-língua",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "D20",
+   "name": "história: controles e info",
+   "mode": "eq",
+   "ref": {
+    "controls": true,
+    "meta": true,
+    "info": true
+   },
+   "clone": {
+    "controls": true,
+    "meta": true,
+    "info": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "D22",
+   "name": "votação vira ✅",
+   "mode": "eq",
+   "ref": "✅",
+   "clone": "✅",
+   "status": "OK"
+  },
+  {
+   "id": "F01",
+   "name": "descrição do site",
+   "mode": "eq",
+   "ref": "Play unblocked games at BRAND! We have only the very best free online games, and they work on any device. There are no ad interruptions, so just start playing!",
+   "clone": "Play unblocked games at BRAND! We have only the very best free online games, and they work on any device. There are no ad interruptions, so just start playing!",
+   "status": "OK"
+  },
+  {
+   "id": "F02",
+   "name": "feedback oculto",
+   "mode": "eq",
+   "ref": "none",
+   "clone": "none",
+   "status": "OK"
+  },
+  {
+   "id": "F03",
+   "name": "faixas arco-íris",
+   "mode": "eq",
+   "ref": 2,
+   "clone": 2,
+   "status": "OK"
+  },
+  {
+   "id": "F04",
+   "name": "copyright",
+   "mode": "eq",
+   "ref": "Copyright © N - N. BRAND. All Rights Reserved. This is a genuine BRAND site.",
+   "clone": "Copyright © N - N. BRAND. All Rights Reserved. This is a genuine BRAND site.",
+   "status": "OK",
+   "note": "o clone não declara marca registrada"
+  },
+  {
+   "id": "F05",
+   "name": "links do rodapé",
+   "mode": "eq",
+   "ref": [
+    "privacy.html",
+    "help.html",
+    "help.html#about",
+    "help.html#faqs",
+    "help.html#fakes",
+    "help.html#oldfriv"
+   ],
+   "clone": [
+    "privacy.html",
+    "help.html",
+    "help.html#about",
+    "help.html#faqs",
+    "help.html#fakes",
+    "help.html#oldfriv"
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "P01",
+   "name": "título da página de jogo",
+   "mode": "eq",
+   "ref": "GAME | No Ads | Play At BRAND 🕹️",
+   "clone": "GAME | No Ads | Play At BRAND 🕹️",
+   "status": "OK"
+  },
+  {
+   "id": "P03",
+   "name": "spinner com tamanho em MB",
+   "mode": "eq",
+   "ref": {
+    "spinnerVisible": true,
+    "mb": true
+   },
+   "clone": {
+    "spinnerVisible": true,
+    "mb": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "P03b",
+   "name": "spinner: animação some após N s",
+   "mode": "eq",
+   "ref": "2s linear 0s infinite normal forwards running spinner, 0s linear 6s 1 normal forwards running spinnerRemove",
+   "clone": "2s linear 0s infinite normal forwards running spinner, 0s linear 6s 1 normal forwards running spinnerRemove",
+   "status": "OK"
+  },
+  {
+   "id": "P04",
+   "name": "barra de carga",
+   "mode": "eq",
+   "ref": "6s linear 1.5s 1 normal forwards running infoBoxLoadingBar",
+   "clone": "6s linear 1.5s 1 normal forwards running infoBoxLoadingBar",
+   "status": "OK"
+  },
+  {
+   "id": "P05",
+   "name": "botão Play após N s",
+   "mode": "eq",
+   "ref": "0s linear 6s 1 normal forwards running playButtonShow, 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) 15s 1 normal none running shake1",
+   "clone": "0s linear 6s 1 normal forwards running playButtonShow, 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) 15s 1 normal none running shake1",
+   "status": "OK"
+  },
+  {
+   "id": "P10",
+   "name": "estrelas da nota",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "P11",
+   "name": "título refeito aos 22 s (contado do carregamento do script)",
+   "mode": "eq",
+   "ref": {
+    "unchangedBefore22s": true,
+    "rewrittenBy24s": true,
+    "restored": true
+   },
+   "clone": {
+    "unchangedBefore22s": true,
+    "rewrittenBy24s": true,
+    "restored": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "P12",
+   "name": "clique: sobreposição some, iframe carrega",
+   "mode": "eq",
+   "ref": {
+    "overlay": "none",
+    "iframe": true
+   },
+   "clone": {
+    "overlay": "none",
+    "iframe": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "P14",
+   "name": "botão voltar leva à home",
+   "mode": "eq",
+   "ref": "/",
+   "clone": "/",
+   "status": "OK"
+  },
+  {
+   "id": "P15",
+   "name": "botão de efeitos segue a flag do jogo",
+   "mode": "eq",
+   "ref": "hidden",
+   "clone": "hidden",
+   "status": "OK"
+  },
+  {
+   "id": "P19",
+   "name": "+1 gamePlays após 100 s",
+   "mode": "eq",
+   "ref": {
+    "at99s": 0,
+    "at101s": 1
+   },
+   "clone": {
+    "at99s": 0,
+    "at101s": 1
+   },
+   "status": "OK"
+  },
+  {
+   "id": "P21",
+   "name": "menu de contexto bloqueado na página de jogo",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "M-G02",
+   "name": "celular: 1 bloco por linha",
+   "mode": "eq",
+   "ref": 1,
+   "clone": 1,
+   "status": "OK"
+  },
+  {
+   "id": "M-H22",
+   "name": "celular: SCROLL TO PLAY na 1ª visita",
+   "mode": "eq",
+   "ref": {
+    "text": "▼ SCROLL TO PLAY! ▼",
+    "shown": true
+   },
+   "clone": {
+    "text": "▼ SCROLL TO PLAY! ▼",
+    "shown": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "M-G14",
+   "name": "celular: ícone de orientação",
+   "mode": "eq",
+   "ref": true,
+   "clone": true,
+   "status": "OK"
+  },
+  {
+   "id": "M-S04",
+   "name": "celular: categorias condicionais",
+   "mode": "eq",
+   "ref": {
+    "landscape": true,
+    "portrait": true,
+    "jobs": false,
+    "platform": false,
+    "halloween": true
+   },
+   "clone": {
+    "landscape": true,
+    "portrait": true,
+    "jobs": false,
+    "platform": false,
+    "halloween": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "M-P09",
+   "name": "celular: controles ocultos na página de jogo",
+   "mode": "eq",
+   "ref": "none",
+   "clone": "none",
+   "status": "OK"
+  },
+  {
+   "id": "R01",
+   "name": "ajuda: âncoras",
+   "mode": "eq",
+   "ref": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "clone": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "R03",
+   "name": "useralert",
+   "mode": "eq",
+   "ref": "Reloading...",
+   "clone": "Reloading...",
+   "status": "OK"
+  },
+  {
+   "id": "R05",
+   "name": "play.html sem parâmetro",
+   "mode": "eq",
+   "ref": [
+    "P\n\nL\n\nA\n\nY\n\n!\n\nSorry - there was an error with this game.",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "Sorry - there was an error with this game."
+   ],
+   "clone": [
+    "P\n\nL\n\nA\n\nY\n\n!\n\nSorry - there was an error with this game.",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "P\n\nL\n\nA\n\nY\n\n!",
+    "Sorry - there was an error with this game."
+   ],
+   "status": "OK"
+  },
+  {
+   "id": "R06",
+   "name": "new.html redireciona",
+   "mode": "eq",
+   "ref": "/",
+   "clone": "/",
+   "status": "OK"
+  },
+  {
+   "id": "R05b",
+   "name": "play.html com nome/URL/aviso PG",
+   "mode": "eq",
+   "ref": {
+    "title": "Test Game",
+    "footer": "Click to play Test Game",
+    "bottom": "This game is rated PG-13.\nSome games are hosted externally. We are not responsible for the content and policies of other sites."
+   },
+   "clone": {
+    "title": "Test Game",
+    "footer": "Click to play Test Game",
+    "bottom": "This game is rated PG-13.\nSome games are hosted externally. We are not responsible for the content and policies of other sites."
+   },
+   "status": "OK"
+  },
+  {
+   "id": "PT",
+   "name": "navegador pt-BR: blocos em inglês ocultos, teste do amor traduzido",
+   "mode": "eq",
+   "ref": {
+    "vis": {
+     "famousQuote": false,
+     "frivolousFact": false,
+     "jokeA": false,
+     "riddleA": false,
+     "limerickA": false,
+     "tongueTwisterA": false,
+     "storyA": false,
+     "chiptune": true,
+     "reactionTestA": true,
+     "loveTesterA": true,
+     "opticalIllusion": true
+    },
+    "love": [
+     "CALCULAR!",
+     "ESCREVA O SEU NOME",
+     "ESCREVA OUTRO NOME",
+     "none"
+    ]
+   },
+   "clone": {
+    "vis": {
+     "famousQuote": false,
+     "frivolousFact": false,
+     "jokeA": false,
+     "riddleA": false,
+     "limerickA": false,
+     "tongueTwisterA": false,
+     "storyA": false,
+     "chiptune": true,
+     "reactionTestA": true,
+     "loveTesterA": true,
+     "opticalIllusion": true
+    },
+    "love": [
+     "CALCULAR!",
+     "ESCREVA O SEU NOME",
+     "ESCREVA OUTRO NOME",
+     "none"
+    ]
+   },
+   "status": "OK"
+  },
+  {
+   "id": "R07",
+   "name": "404",
+   "mode": "eq",
+   "ref": {
+    "status": 404,
+    "text": "Error 404 - File Not Found."
+   },
+   "clone": {
+    "status": 404,
+    "text": "Error 404 - File Not Found."
+   },
+   "status": "OK"
+  },
+  {
+   "id": "R08",
+   "name": "cabeçalhos de cache",
+   "mode": "eq",
+   "ref": {
+    "cacheControl": "max-age=7200, public",
+    "etag": true,
+    "lastModified": true
+   },
+   "clone": {
+    "cacheControl": "max-age=7200, public",
+    "etag": true,
+    "lastModified": true
+   },
+   "status": "OK"
+  },
+  {
+   "id": "R09",
+   "name": "robots/sitemap/manifest",
+   "mode": "eq",
+   "ref": {
+    "robots": 200,
+    "sitemap": 200,
+    "manifest": 200
+   },
+   "clone": {
+    "robots": 200,
+    "sitemap": 200,
+    "manifest": 200
+   },
+   "status": "OK"
+  }
+ ]
+}

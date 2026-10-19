@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cylinders</title>
+<style>html,body{margin:0;height:100%;background:#101018;overflow:hidden}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+// Cilindros listrados girando em perspectiva; clique para trocar as cores.
+const c = document.getElementById('c'), x = c.getContext('2d');
+let W, H, hue = 200;
+function size() { W = c.width = innerWidth; H = c.height = innerHeight; }
+addEventListener('resize', size); size();
+addEventListener('pointerdown', () => { hue = Math.random() * 360; });
+function cylinder(cx, cy, w, h, spin, k) {
+  const stripes = 16;
+  for (let i = 0; i < stripes; i++) {
+    const a0 = (i / stripes) * Math.PI * 2 + spin, a1 = ((i + 1) / stripes) * Math.PI * 2 + spin;
+    if (Math.cos((a0 + a1) / 2) < 0) continue;
+    const x0 = cx + Math.sin(a0) * w / 2, x1 = cx + Math.sin(a1) * w / 2;
+    const light = 30 + Math.cos((a0 + a1) / 2) * 40;
+    x.fillStyle = `hsl(${(hue + k * 30 + (i % 2) * 40) % 360},80%,${light}%)`;
+    x.fillRect(Math.min(x0, x1), cy - h / 2, Math.abs(x1 - x0) + 0.5, h);
+  }
+  x.fillStyle = `hsl(${(hue + k * 30) % 360},70%,75%)`;
+  x.beginPath(); x.ellipse(cx, cy - h / 2, w / 2, w / 8, 0, 0, Math.PI * 2); x.fill();
+}
+(function frame(t) {
+  x.fillStyle = '#101018'; x.fillRect(0, 0, W, H);
+  const n = 7;
+  for (let k = 0; k < n; k++) {
+    const cx = W * (k + 0.5) / n, cy = H / 2 + Math.sin(t / 700 + k) * H * 0.12;
+    cylinder(cx, cy, W / n * 0.7, H * 0.5, t / (400 + k * 60) * (k % 2 ? 1 : -1), k);
+  }
+  requestAnimationFrame(frame);
+})(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,653 @@
+[
+ {
+  "id": "G-PLAY",
+  "name": "jogo 2048tiles: carrega, desenha e responde",
+  "ok": true,
+  "detail": "73 cores amostradas",
+  "ms": 2491
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo 2048tiles",
+  "ok": true,
+  "ms": 1118
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo brickbreaker: carrega, desenha e responde",
+  "ok": true,
+  "detail": "58 cores amostradas",
+  "ms": 2018
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo brickbreaker",
+  "ok": true,
+  "ms": 600
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo burgerstack: carrega, desenha e responde",
+  "ok": true,
+  "detail": "59 cores amostradas",
+  "ms": 1900
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo burgerstack",
+  "ok": true,
+  "ms": 541
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo connectfourduel: carrega, desenha e responde",
+  "ok": true,
+  "detail": "64 cores amostradas",
+  "ms": 1898
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo connectfourduel",
+  "ok": true,
+  "ms": 580
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo cuberun3d: carrega, desenha e responde",
+  "ok": true,
+  "detail": "609 cores amostradas",
+  "ms": 1867
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo cuberun3d",
+  "ok": true,
+  "ms": 540
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo emojimemory: carrega, desenha e responde",
+  "ok": true,
+  "detail": "145 cores amostradas",
+  "ms": 1879
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo emojimemory",
+  "ok": true,
+  "ms": 518
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo fruitmemory: carrega, desenha e responde",
+  "ok": true,
+  "detail": "156 cores amostradas",
+  "ms": 1880
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo fruitmemory",
+  "ok": true,
+  "ms": 518
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo giftcatcher: carrega, desenha e responde",
+  "ok": true,
+  "detail": "493 cores amostradas",
+  "ms": 1885
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo giftcatcher",
+  "ok": true,
+  "ms": 520
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo laneracer: carrega, desenha e responde",
+  "ok": true,
+  "detail": "34 cores amostradas",
+  "ms": 1869
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo laneracer",
+  "ok": true,
+  "ms": 522
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo megamaze: carrega, desenha e responde",
+  "ok": true,
+  "detail": "131 cores amostradas",
+  "ms": 1871
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo megamaze",
+  "ok": true,
+  "ms": 521
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo memoryflip: carrega, desenha e responde",
+  "ok": true,
+  "detail": "151 cores amostradas",
+  "ms": 1896
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo memoryflip",
+  "ok": true,
+  "ms": 527
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo minesweeper: carrega, desenha e responde",
+  "ok": true,
+  "detail": "65 cores amostradas",
+  "ms": 1872
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo minesweeper",
+  "ok": true,
+  "ms": 537
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo monsterdressup: carrega, desenha e responde",
+  "ok": true,
+  "detail": "141 cores amostradas",
+  "ms": 1872
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo monsterdressup",
+  "ok": true,
+  "ms": 512
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo neonbreaker: carrega, desenha e responde",
+  "ok": true,
+  "detail": "715 cores amostradas",
+  "ms": 1869
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo neonbreaker",
+  "ok": true,
+  "ms": 511
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo nightgiftcatcher: carrega, desenha e responde",
+  "ok": true,
+  "detail": "398 cores amostradas",
+  "ms": 1861
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo nightgiftcatcher",
+  "ok": true,
+  "ms": 519
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo penaltykick: carrega, desenha e responde",
+  "ok": true,
+  "detail": "65 cores amostradas",
+  "ms": 1890
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo penaltykick",
+  "ok": true,
+  "ms": 585
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo pixeljumper: carrega, desenha e responde",
+  "ok": true,
+  "detail": "449 cores amostradas",
+  "ms": 2193
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo pixeljumper",
+  "ok": true,
+  "ms": 1093
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo pixelpainter: carrega, desenha e responde",
+  "ok": true,
+  "detail": "106 cores amostradas",
+  "ms": 1980
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo pixelpainter",
+  "ok": true,
+  "ms": 549
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo pizzachef: carrega, desenha e responde",
+  "ok": true,
+  "detail": "219 cores amostradas",
+  "ms": 1878
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo pizzachef",
+  "ok": true,
+  "ms": 649
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo pongduel: carrega, desenha e responde",
+  "ok": true,
+  "detail": "14 cores amostradas",
+  "ms": 1906
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo pongduel",
+  "ok": true,
+  "ms": 547
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo pumpkincatcher: carrega, desenha e responde",
+  "ok": true,
+  "detail": "402 cores amostradas",
+  "ms": 1903
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo pumpkincatcher",
+  "ok": true,
+  "ms": 605
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo simoncolors: carrega, desenha e responde",
+  "ok": true,
+  "detail": "97 cores amostradas",
+  "ms": 1871
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo simoncolors",
+  "ok": true,
+  "ms": 536
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo slidepuzzle15: carrega, desenha e responde",
+  "ok": true,
+  "detail": "134 cores amostradas",
+  "ms": 1873
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo slidepuzzle15",
+  "ok": true,
+  "ms": 522
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo snakenight: carrega, desenha e responde",
+  "ok": true,
+  "detail": "19 cores amostradas",
+  "ms": 1873
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo snakenight",
+  "ok": true,
+  "ms": 513
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo snakerush: carrega, desenha e responde",
+  "ok": true,
+  "detail": "16 cores amostradas",
+  "ms": 1867
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo snakerush",
+  "ok": true,
+  "ms": 513
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo spaceblaster: carrega, desenha e responde",
+  "ok": true,
+  "detail": "48 cores amostradas",
+  "ms": 1865
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo spaceblaster",
+  "ok": true,
+  "ms": 518
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo spookymemory: carrega, desenha e responde",
+  "ok": true,
+  "detail": "147 cores amostradas",
+  "ms": 1869
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo spookymemory",
+  "ok": true,
+  "ms": 551
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo tictactoeduel: carrega, desenha e responde",
+  "ok": true,
+  "detail": "61 cores amostradas",
+  "ms": 1865
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo tictactoeduel",
+  "ok": true,
+  "ms": 520
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo treasuremaze: carrega, desenha e responde",
+  "ok": true,
+  "detail": "150 cores amostradas",
+  "ms": 1914
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo treasuremaze",
+  "ok": true,
+  "ms": 523
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo turbosnake: carrega, desenha e responde",
+  "ok": true,
+  "detail": "73 cores amostradas",
+  "ms": 1864
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo turbosnake",
+  "ok": true,
+  "ms": 520
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo whackamole: carrega, desenha e responde",
+  "ok": true,
+  "detail": "75 cores amostradas",
+  "ms": 1864
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo whackamole",
+  "ok": true,
+  "ms": 549
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo wintermemory: carrega, desenha e responde",
+  "ok": true,
+  "detail": "154 cores amostradas",
+  "ms": 1905
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo wintermemory",
+  "ok": true,
+  "ms": 567
+ },
+ {
+  "id": "G-PLAY",
+  "name": "jogo wordguess: carrega, desenha e responde",
+  "ok": true,
+  "detail": "154 cores amostradas",
+  "ms": 2281
+ },
+ {
+  "id": "P-PAGE",
+  "name": "página de jogo wordguess",
+  "ok": true,
+  "ms": 929
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2026-12-25",
+  "ok": true,
+  "detail": "It's finally here! We wish you a... MERRY CHRISTMAS!",
+  "ms": 1960
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2026-10-31",
+  "ok": true,
+  "detail": "It's getting really spooky... HAPPY HALLOWEEN!",
+  "ms": 1726
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2026-02-14",
+  "ok": true,
+  "detail": "It's time for lovin' on... VALENTINE'S DAY!",
+  "ms": 1797
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2026-03-17",
+  "ok": true,
+  "detail": "It's time to catch a leprechaun on... ST. PATRICK'S DAY!",
+  "ms": 1734
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2026-04-01",
+  "ok": true,
+  "detail": "It's time for japes on... APRIL FOOLS DAY!",
+  "ms": 1707
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2027-01-01",
+  "ok": true,
+  "detail": "It's time to make a resolution on... NEW YEARS DAY!",
+  "ms": 1730
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2026-11-13",
+  "ok": true,
+  "detail": "It's only GOOD luck on Jogatina on... FRIDAY THE 13TH!",
+  "ms": 1707
+ },
+ {
+  "id": "D02",
+  "name": "data especial 2026-06-02",
+  "ok": true,
+  "detail": "It's Tuesday 2nd June!",
+  "ms": 1680
+ },
+ {
+  "id": "E04-E08",
+  "name": "conquista com 5 jogadas",
+  "ok": true,
+  "detail": "⭐ AWESOME ⭐",
+  "ms": 3693
+ },
+ {
+  "id": "E04-E08",
+  "name": "conquista com 10 jogadas",
+  "ok": true,
+  "detail": "✨ EPIC ✨",
+  "ms": 3634
+ },
+ {
+  "id": "E04-E08",
+  "name": "conquista com 15 jogadas",
+  "ok": true,
+  "detail": "✨ EPIC ✨",
+  "ms": 3681
+ },
+ {
+  "id": "E04-E08",
+  "name": "conquista com 27 jogadas",
+  "ok": true,
+  "detail": "💫 ULTRA 💫",
+  "ms": 3820
+ },
+ {
+  "id": "E04-E08",
+  "name": "conquista com 50 jogadas",
+  "ok": true,
+  "detail": "🏆 Jogatina VIP 🏆",
+  "ms": 3883
+ },
+ {
+  "id": "F02",
+  "name": "feedback VIP: enviar mostra agradecimento e guarda localmente",
+  "ok": true,
+  "ms": 4158
+ },
+ {
+  "id": "E03",
+  "name": "link secreto libera os jogos extra e grava frivExtraTimer",
+  "ok": true,
+  "detail": "23 → 26 blocos",
+  "ms": 4278
+ },
+ {
+  "id": "E11",
+  "name": "título anima com a aba sem foco e volta com o mouse",
+  "ok": true,
+  "detail": "🎮⏩😴⏩⏩⏩",
+  "ms": 422
+ },
+ {
+  "id": "E09",
+  "name": "gráfico que cai (?drop)",
+  "ok": true,
+  "ms": 3161
+ },
+ {
+  "id": "H10-H11",
+  "name": "boas-vindas fora do Halloween e convite CLICK LOGO X10",
+  "ok": true,
+  "ms": 276
+ },
+ {
+  "id": "H10b",
+  "name": "boas-vindas em português",
+  "ok": true,
+  "detail": "Bem-vindo!",
+  "ms": 246
+ },
+ {
+  "id": "H18",
+  "name": "piada de uma linha: só título e texto, sem clique",
+  "ok": true,
+  "detail": "Today's Joke / I only know 25 letters of the alphabet.",
+  "ms": 2233
+ },
+ {
+  "id": "H19",
+  "name": "piadas por idioma (pt) e lista sazonal",
+  "ok": true,
+  "detail": "A Piada de Hoje - Clique para a Resposta · Piada de Natal de Hoje - Clique para a Resposta",
+  "ms": 3208
+ },
+ {
+  "id": "H21",
+  "name": "grade aparece após 0 ms com 0 jogadas",
+  "ok": true,
+  "ms": 206
+ },
+ {
+  "id": "H21",
+  "name": "grade aparece após 500 ms com 4 jogadas",
+  "ok": true,
+  "ms": 176
+ },
+ {
+  "id": "H21",
+  "name": "grade aparece após 1000 ms com 7 jogadas",
+  "ok": true,
+  "ms": 219
+ },
+ {
+  "id": "D24",
+  "name": "conteúdo diário determinístico por data (meses pares +31)",
+  "ok": true,
+  "detail": "ok",
+  "ms": 3650
+ },
+ {
+  "id": "D11",
+  "name": "teste de reação completo (7 rodadas)",
+  "ok": true,
+  "detail": "Your average time was: 0.02s. Your best time was 0.012s.",
+  "ms": 38806
+ },
+ {
+  "id": "D21-D23",
+  "name": "vídeo toca e pausa o chiptune",
+  "ok": true,
+  "detail": "vídeo em 2.5 s",
+  "ms": 6476
+ },
+ {
+  "id": "D20",
+  "name": "história: PLAY vira PAUSE, NEXT/PREV trocam o título",
+  "ok": true,
+  "detail": "PAUSE",
+  "ms": 4805
+ },
+ {
+  "id": "D10",
+  "name": "mesa de sons: 10 botões tocam sem erro",
+  "ok": true,
+  "ms": 4732
+ },
+ {
+  "id": "P15",
+  "name": "botão de efeitos percorre os 23 efeitos",
+  "ok": true,
+  "detail": "21 estados distintos",
+  "ms": 1464
+ },
+ {
+  "id": "P18",
+  "name": "jogo só desktop em celular mostra aviso",
+  "ok": true,
+  "ms": 1245
+ },
+ {
+  "id": "R-LINKS",
+  "name": "todos os links internos das páginas respondem 200",
+  "ok": true,
+  "detail": "33 links",
+  "ms": 1509
+ },
+ {
+  "id": "R-NET",
+  "name": "nenhuma requisição a terceiros em todo o e2e",
+  "ok": true,
+  "ms": 0
+ }
+]

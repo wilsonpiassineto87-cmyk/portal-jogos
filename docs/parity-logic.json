@@ -1,0 +1,55 @@
+{
+  "reference": "https://www.friv.com/",
+  "ok": true,
+  "results": [
+    {
+      "id": "D02",
+      "name": "calendário (specialDay/specialPeriod)",
+      "cases": 2191,
+      "fails": 0,
+      "examples": []
+    },
+    {
+      "id": "D01",
+      "name": "frase da data (dateStrap) e emoji especial",
+      "cases": 2191,
+      "fails": 0,
+      "examples": []
+    },
+    {
+      "id": "D15a",
+      "name": "teste do amor: porcentagem",
+      "cases": 5004,
+      "fails": 0,
+      "examples": []
+    },
+    {
+      "id": "D15b",
+      "name": "teste do amor: validação do nome",
+      "cases": 5010,
+      "fails": 0,
+      "examples": []
+    },
+    {
+      "id": "D15c",
+      "name": "teste do amor: frase por faixa",
+      "cases": 101,
+      "fails": 0,
+      "examples": []
+    },
+    {
+      "id": "D11",
+      "name": "teste de reação: frase e ranking",
+      "cases": 400,
+      "fails": 0,
+      "examples": []
+    },
+    {
+      "id": "S05-S10",
+      "name": "mensagem do resultado da busca",
+      "cases": 250,
+      "fails": 0,
+      "examples": []
+    }
+  ]
+}

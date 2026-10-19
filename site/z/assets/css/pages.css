@@ -1,0 +1,11 @@
+@font-face { font-family: siteFont; font-display: swap; font-weight: 300 700; src: url(../fonts/fredoka-latin.woff2) format('woff2'); }
+body { margin: 0 auto; max-width: 900px; padding: 2em 5vw 6em; background: linear-gradient(indigo, navy) fixed; color: #fff; font-family: siteFont, Arial, sans-serif; font-size: 1.15em; line-height: 1.55; }
+h1 { text-align: center; font-size: 2.2em; line-height: 1.2; }
+h2 { margin-top: 2em; color: #ffd23f; }
+h3 { color: #b3e5fc; margin-bottom: 0.2em; }
+a:link, a:visited { color: #aaf; text-decoration: none; }
+a:hover { color: #7ff; }
+section { background: rgba(0, 0, 0, 0.25); border-radius: 1em; padding: 0.5em 1.5em 1em; margin-top: 1.5em; }
+code { background: rgba(255, 255, 255, 0.15); padding: 0 0.3em; border-radius: 0.3em; }
+.back { text-align: center; margin-top: 3em; }
+.center { text-align: center; }

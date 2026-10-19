@@ -1,0 +1,226 @@
+// Catálogo de jogos do portal. Gera a grade, as páginas de jogo, as miniaturas e o sitemap.
+// Campos seguem o formato observado no original: dispositivos, gêneros (tags), data e popularidade por plataforma.
+
+const ALL = 'Desktop iPadOld iPadNew iPhone AndroidLow AndroidMid AndroidHigh';
+const DESKTOP = 'Desktop';
+
+// list: 'main' | 'extra' (truque do logo) | 'halloween' | 'christmas' | 'dressup'
+export const games = [
+  {
+    slug: 'snakerush', effects: true, name: 'Snake_Rush', engine: 'snake', cfg: { title: 'Snake Rush', key: 'snakerush' },
+    tags: 'Landscape Action Retro', devices: ALL, date: '2026-02-11', pop: [3, 5, 6, 6],
+    orientation: 'Landscape', controls: 'k', keys: 'UDLR', mb: 1, rating: [4.7, 812], list: 'main',
+    en: 'Steer the hungry snake around the garden and gobble up the fruit. Every bite makes you longer and faster, so plan your turns and never bite your own tail!',
+    pt: 'Guie a cobra faminta pelo jardim e coma as frutas. Cada mordida deixa você maior e mais rápido, então planeje as curvas e nunca morda o próprio rabo!',
+  },
+  {
+    slug: 'memoryflip', name: 'Memory_Flip', engine: 'memory', cfg: { title: 'Memory Flip', key: 'memoryflip' },
+    tags: 'Portrait Puzzle', devices: ALL, date: '2025-11-03', pop: [8, 4, 4, 3],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.6, 640], list: 'main',
+    en: 'Flip the cards two at a time and find every matching pair of fruit. Can you clear the table in fewer moves than last time?',
+    pt: 'Vire as cartas de duas em duas e encontre todos os pares de frutas. Consegue limpar a mesa com menos jogadas que da última vez?',
+  },
+  {
+    slug: 'tictactoeduel', name: 'Tic_Tac_Toe_Duel', engine: 'tictactoe', cfg: {},
+    tags: 'Portrait Puzzle Strategy 2Player', devices: ALL, date: '2025-08-20', pop: [1, 2, 2, 2],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.8, 1503], list: 'main',
+    en: 'The classic game of noughts and crosses. Challenge a friend on the same screen or test your wits against the computer. Three in a row wins!',
+    pt: 'O clássico jogo da velha. Desafie um amigo na mesma tela ou teste sua esperteza contra o computador. Três em linha vence!',
+  },
+  {
+    slug: 'connectfourduel', name: 'Connect_Four_Duel', engine: 'connect4', cfg: {},
+    tags: 'Portrait Strategy 2Player Puzzle', devices: ALL, date: '2025-09-14', pop: [5, 6, 5, 5],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.7, 977], list: 'main',
+    en: 'Drop your discs into the grid and be the first to line up four in a row – across, up or diagonally. Play a friend or the computer.',
+    pt: 'Solte suas fichas na grade e seja o primeiro a alinhar quatro – na horizontal, vertical ou diagonal. Jogue contra um amigo ou o computador.',
+  },
+  {
+    slug: '2048tiles', name: '2048_Tiles', engine: 'tiles2048', cfg: {},
+    tags: 'Portrait Puzzle Math', devices: ALL, date: '2025-06-01', pop: [4, 1, 1, 1],
+    orientation: 'Portrait', controls: 'k', keys: 'UDLR', mb: 1, rating: [4.8, 2210], list: 'main',
+    en: 'Slide the numbered tiles and merge matching numbers to double them. Keep combining until you reach the magic 2048 tile!',
+    pt: 'Deslize as peças numeradas e junte números iguais para dobrá-los. Continue combinando até chegar à peça mágica 2048!',
+  },
+  {
+    slug: 'brickbreaker', musicVote: true, name: 'Brick_Breaker', engine: 'breakout', cfg: { title: 'Brick Breaker', key: 'brickbreaker' },
+    tags: 'Landscape Action Retro', devices: ALL, date: '2025-10-02', pop: [6, 8, 8, 9],
+    orientation: 'Landscape', controls: 'm', keys: 'LRS', mb: 1, rating: [4.5, 704], list: 'main',
+    en: 'Bounce the ball off your paddle and smash every brick on the wall. Hit the ball with the edge of the paddle to send it flying at sharper angles.',
+    pt: 'Rebata a bola com a raquete e quebre todos os tijolos da parede. Acerte com a ponta da raquete para mandar a bola em ângulos mais fechados.',
+  },
+  {
+    slug: 'pongduel', musicVote: true, name: 'Pong_Duel', engine: 'pong', cfg: {},
+    tags: 'Landscape Sport 2Player Retro Ball', devices: DESKTOP, date: '2025-05-19', pop: [9, 99, 99, 99],
+    orientation: 'Landscape', controls: 'k', keys: 'wsUD', mb: 1, rating: [4.4, 388], list: 'main', desktopOnly: true,
+    en: 'Table tennis the retro way! One player uses W and S, the other the arrow keys – or play alone against the computer. First to seven points wins.',
+    pt: 'Tênis de mesa do jeito retrô! Um jogador usa W e S, o outro as setas – ou jogue sozinho contra o computador. Quem fizer sete pontos primeiro vence.',
+  },
+  {
+    slug: 'whackamole', name: 'Whack_A_Mole', engine: 'whack', cfg: {},
+    tags: 'Landscape Action', devices: ALL, date: '2025-07-07', pop: [10, 3, 3, 4],
+    orientation: 'Landscape', controls: 'm', keys: '', mb: 1, rating: [4.5, 566], list: 'main',
+    en: 'The moles are digging up the lawn! Click them as fast as you can before they hide again. Golden moles are worth triple points.',
+    pt: 'As toupeiras estão estragando o gramado! Clique nelas o mais rápido possível antes que se escondam. As douradas valem o triplo.',
+  },
+  {
+    slug: 'simoncolors', name: 'Simon_Colors', engine: 'simon', cfg: {},
+    tags: 'Portrait Puzzle', devices: ALL, date: '2025-04-12', pop: [7, 7, 7, 7],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.3, 251], list: 'main',
+    en: 'Watch the coloured pads light up and repeat the sequence. Each round adds one more step – how long can your memory keep up?',
+    pt: 'Observe os botões coloridos acenderem e repita a sequência. Cada rodada adiciona um passo – até onde sua memória aguenta?',
+  },
+  {
+    slug: 'minesweeper', name: 'Mine_Sweeper', engine: 'minesweeper', cfg: {},
+    tags: 'Portrait Puzzle Strategy', devices: ALL, date: '2025-03-30', pop: [12, 12, 12, 12],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.6, 731], list: 'main',
+    en: 'Clear the field without hitting a mine. The numbers tell you how many mines are hiding next to each square. Right click (or long press) to place a flag.',
+    pt: 'Limpe o campo sem pisar numa mina. Os números dizem quantas minas estão escondidas ao lado de cada casa. Clique direito (ou toque longo) para marcar uma bandeira.',
+  },
+  {
+    slug: 'slidepuzzle15', name: 'Slide_Puzzle_15', engine: 'slide15', cfg: {},
+    tags: 'Portrait Puzzle Math', devices: ALL, date: '2025-02-14', pop: [16, 14, 14, 14],
+    orientation: 'Portrait', controls: 'm', keys: 'UDLR', mb: 1, rating: [4.2, 190], list: 'main',
+    en: 'Slide the tiles into the empty space to put the numbers back in order from 1 to 15. A brain-teaser that is over a hundred years old!',
+    pt: 'Deslize as peças para o espaço vazio e coloque os números em ordem de 1 a 15. Um desafio de raciocínio com mais de cem anos!',
+  },
+  {
+    slug: 'wordguess', name: 'Word_Guess', engine: 'wordguess', cfg: {},
+    tags: 'Portrait Word Puzzle', devices: ALL, date: '2025-12-01', pop: [13, 11, 11, 11],
+    orientation: 'Portrait', controls: 'km', keys: '', mb: 1, rating: [4.4, 302], list: 'main',
+    en: 'Guess the hidden word one letter at a time. Every wrong letter pops a balloon – find the word before all six are gone!',
+    pt: 'Adivinhe a palavra escondida uma letra de cada vez. Cada letra errada estoura um balão – descubra a palavra antes que os seis acabem!',
+  },
+  {
+    slug: 'pumpkincatcher', name: 'Pumpkin_Catcher', engine: 'catcher', cfg: { title: 'Pumpkin Catcher', key: 'pumpkincatcher' },
+    tags: 'Landscape Action Halloween', devices: ALL, date: '2025-10-10', pop: [10.1, 10.1, 10.1, 10.1],
+    orientation: 'Landscape', controls: 'm', keys: 'LR', mb: 2, rating: [4.6, 455], list: 'halloween',
+    en: 'It is Halloween night and treats are falling from the sky! Catch the pumpkins and sweets in your basket but watch out for spiders and skulls.',
+    pt: 'É noite de Halloween e doces estão caindo do céu! Pegue as abóboras e os doces na cesta, mas cuidado com as aranhas e as caveiras.',
+  },
+  {
+    slug: 'spookymemory', name: 'Spooky_Memory', engine: 'memory',
+    cfg: { title: 'Spooky Memory', key: 'spookymemory', symbols: ['🎃', '👻', '🦇', '🕷️', '🧙', '💀', '🍬', '🕸️'], back: '#e65100', bg: '#1a0033' },
+    tags: 'Portrait Puzzle Halloween', devices: ALL, date: '2025-10-12', pop: [10.2, 10.2, 10.2, 10.2],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.5, 203], list: 'halloween',
+    en: 'Ghosts, bats and pumpkins are hiding behind these cards. Find all the spooky pairs before the clock strikes midnight!',
+    pt: 'Fantasmas, morcegos e abóboras estão escondidos atrás das cartas. Encontre todos os pares assustadores antes da meia-noite!',
+  },
+  {
+    slug: 'burgerstack', musicVote: true, name: 'Burger_Stack', engine: 'stacker', cfg: {},
+    tags: 'Portrait Food Action New', devices: ALL, date: '2026-09-28', pop: [2, 9, 9, 9],
+    orientation: 'Portrait', controls: 'm', keys: 'S', mb: 1, rating: [4.6, 98], list: 'main',
+    en: 'Build the tallest burger in town! Each layer slides from side to side – drop it at just the right moment. Anything hanging over the edge falls off.',
+    pt: 'Monte o hambúrguer mais alto da cidade! Cada camada desliza de um lado para o outro – solte no momento certo. O que passar da borda cai.',
+  },
+  {
+    slug: 'penaltykick', musicVote: true, name: 'Penalty_Kick', engine: 'penalty', cfg: {},
+    tags: 'Landscape Sport Ball', devices: ALL, date: '2025-06-22', pop: [15, 9.5, 9.5, 9.5],
+    orientation: 'Landscape', controls: 'm', keys: '', mb: 2, rating: [4.5, 344], list: 'main',
+    en: 'Ten penalties to become a legend. Aim for the corners, shoot, and hope the goalkeeper dives the wrong way!',
+    pt: 'Dez pênaltis para virar lenda. Mire nos cantos, chute e torça para o goleiro pular para o lado errado!',
+  },
+  {
+    slug: 'monsterdressup', name: 'Monster_Dressup', engine: 'dressup', cfg: {},
+    tags: 'Portrait Dressup Creative', devices: ALL, date: '2025-09-01', pop: [24, 23, 23, 23],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.4, 156], list: 'dressup', dressup: true,
+    en: 'This friendly monster is going to a party and needs a new look. Pick its colour, eyes, mouth, hat and accessories – or let the dice surprise you!',
+    pt: 'Este monstro simpático vai a uma festa e precisa de um visual novo. Escolha a cor, os olhos, a boca, o chapéu e os acessórios – ou deixe o dado surpreender você!',
+  },
+  {
+    slug: 'spaceblaster', effects: true, musicVote: true, name: 'Space_Blaster', engine: 'blaster', cfg: {},
+    tags: 'Portrait Action Shooting Combat', devices: ALL, date: '2026-03-03', pop: [17, 16, 16, 16],
+    orientation: 'Portrait', controls: 'k', keys: 'UDLRS', mb: 1, rating: [4.6, 489], list: 'main',
+    en: 'Pilot your ship through a storm of asteroids. Blast the rocks before they hit you – big ones need two shots!',
+    pt: 'Pilote sua nave por uma chuva de asteroides. Destrua as rochas antes que elas atinjam você – as grandes precisam de dois tiros!',
+  },
+  {
+    slug: 'laneracer', effects: true, name: 'Lane_Racer', engine: 'racer', cfg: {},
+    tags: 'Portrait Motorsport Action New', devices: ALL, date: '2026-10-01', pop: [18, 17, 17, 17],
+    orientation: 'Portrait', controls: 'k', keys: 'LR', mb: 1, rating: [4.4, 77], list: 'main',
+    en: 'Weave through the highway traffic at ever-increasing speed. Switch lanes quickly and see how far you can drive without a scratch.',
+    pt: 'Costure pelo trânsito da estrada numa velocidade cada vez maior. Troque de faixa rápido e veja até onde consegue dirigir sem um arranhão.',
+  },
+  {
+    slug: 'pixeljumper', musicVote: true, name: 'Pixel_Jumper', engine: 'jumper', cfg: {},
+    tags: 'Portrait Platform Action', devices: ALL, date: '2026-05-15', pop: [19, 18, 18, 18],
+    orientation: 'Portrait', controls: 'k', keys: 'LR', mb: 1, rating: [4.5, 266], list: 'main',
+    en: 'Bounce from platform to platform and climb into the sky. Purple platforms move, so time your jumps carefully!',
+    pt: 'Pule de plataforma em plataforma e suba até o céu. As plataformas roxas se mexem, então calcule bem os saltos!',
+  },
+  {
+    slug: 'cuberun3d', effects: true, musicVote: true, name: 'Cube_Run_3D', engine: 'cuberun', cfg: {},
+    tags: 'Landscape 3D Action New', devices: ALL, date: '2026-10-09', pop: [20, 19, 19, 19],
+    orientation: 'Landscape', controls: 'k', keys: 'LR', mb: 1, rating: [4.3, 64], list: 'main',
+    en: 'Race through a neon world where cubes fly straight at you. Steer left and right to survive as the speed keeps climbing.',
+    pt: 'Corra por um mundo neon onde cubos voam na sua direção. Desvie para a esquerda e para a direita para sobreviver enquanto a velocidade aumenta.',
+  },
+  {
+    slug: 'treasuremaze', name: 'Treasure_Maze', engine: 'maze', cfg: {},
+    tags: 'Portrait Adventure Puzzle', devices: ALL, date: '2026-01-20', pop: [21, 20, 20, 20],
+    orientation: 'Portrait', controls: 'k', keys: 'UDLR', mb: 1, rating: [4.5, 211], list: 'main',
+    en: 'Explore the twisting maze, collect every coin to unlock the chest and claim the treasure. Each new level is bigger than the last.',
+    pt: 'Explore o labirinto sinuoso, colete todas as moedas para destrancar o baú e pegue o tesouro. Cada nível é maior que o anterior.',
+  },
+  {
+    slug: 'pixelpainter', name: 'Pixel_Painter', engine: 'painter', cfg: {},
+    tags: 'Portrait Creative', devices: ALL, date: '2025-12-20', pop: [22, 21, 21, 21],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.2, 133], list: 'main',
+    en: 'Create your own pixel art masterpiece. Pick a colour, draw with the pen, fill big areas with the bucket – your picture is saved automatically.',
+    pt: 'Crie sua própria obra de arte em pixels. Escolha uma cor, desenhe com o lápis, pinte áreas grandes com o balde – seu desenho é salvo automaticamente.',
+  },
+  {
+    slug: 'pizzachef', name: 'Pizza_Chef', engine: 'pizzachef', cfg: {},
+    tags: 'Portrait Jobs Food', devices: ALL, date: '2026-07-04', pop: [23, 22, 22, 22],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.5, 187], list: 'main',
+    en: 'The pizzeria is open and the customers are hungry! Add exactly the toppings each order asks for and serve it quickly for a bigger tip.',
+    pt: 'A pizzaria abriu e os clientes estão com fome! Coloque exatamente os ingredientes de cada pedido e sirva rápido para ganhar uma gorjeta maior.',
+  },
+  // Jogos extras: liberados com 10 cliques no logo (borda verde-limão, como no original).
+  {
+    slug: 'snakenight', name: 'Snake_Night', engine: 'snake', cfg: { title: 'Snake Night', theme: 'night', speed: 10, key: 'snakenight' },
+    tags: 'Landscape Action Retro Extra', devices: ALL, date: '2026-04-01', pop: [30, 30, 30, 30],
+    orientation: 'Landscape', controls: 'k', keys: 'UDLR', mb: 1, rating: [4.6, 120], list: 'extra',
+    en: 'The snake has gone neon! A faster after-dark version of the classic for players who found the secret.',
+    pt: 'A cobra virou neon! Uma versão noturna e mais rápida do clássico para quem descobriu o segredo.',
+  },
+  {
+    slug: 'neonbreaker', effects: true, name: 'Neon_Breaker', engine: 'breakout', cfg: { title: 'Neon Breaker', theme: 'neon', key: 'neonbreaker' },
+    tags: 'Landscape Action Retro Extra', devices: ALL, date: '2026-04-01', pop: [31, 31, 31, 31],
+    orientation: 'Landscape', controls: 'm', keys: 'LRS', mb: 1, rating: [4.5, 88], list: 'extra',
+    en: 'Brick breaking with a glowing neon twist. Clear three walls to win.',
+    pt: 'Quebra-tijolos com um toque neon brilhante. Limpe três paredes para vencer.',
+  },
+  {
+    slug: 'emojimemory', name: 'Emoji_Memory', engine: 'memory',
+    cfg: { title: 'Emoji Memory', key: 'emojimemory', symbols: ['😀', '😎', '🥳', '😴', '🤖', '👽', '🤠', '😺', '🐸', '🦄'], cols: 4, rows: 5, back: '#00897b', bg: '#004d40' },
+    tags: 'Portrait Puzzle Extra', devices: ALL, date: '2026-04-01', pop: [32, 32, 32, 32],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.4, 71], list: 'extra',
+    en: 'Twenty cards, ten pairs of funny faces. A bigger memory challenge for secret-hunters.',
+    pt: 'Vinte cartas, dez pares de carinhas engraçadas. Um desafio de memória maior para caçadores de segredos.',
+  },
+  // Jogos de Natal: aparecem só no período de Natal.
+  {
+    slug: 'giftcatcher', name: 'Gift_Catcher', engine: 'catcher',
+    cfg: { title: 'Gift Catcher', key: 'giftcatcher', good: ['🎁', '⭐', '🍪', '🧦'], bad: ['🧊', '💣'], sky: ['#0d1b3e', '#1565c0'], moon: false, overTitle: 'Brrr!', hint: ['Catch the presents and cookies', 'Avoid the ice and bombs!'] },
+    tags: 'Landscape Action Xmas', devices: ALL, date: '2025-12-05', pop: [10.1, 10.1, 10.1, 10.1],
+    orientation: 'Landscape', controls: 'm', keys: 'LR', mb: 2, rating: [4.6, 140], list: 'christmas',
+    en: 'Presents are tumbling from the sleigh! Catch the gifts and cookies but dodge the ice cubes and bombs.',
+    pt: 'Os presentes estão caindo do trenó! Pegue os presentes e os biscoitos, mas desvie dos cubos de gelo e das bombas.',
+  },
+  {
+    slug: 'wintermemory', name: 'Winter_Memory', engine: 'memory',
+    cfg: { title: 'Winter Memory', key: 'wintermemory', symbols: ['🎄', '⛄', '🎅', '🦌', '❄️', '🔔', '🎁', '🧣'], back: '#c62828', bg: '#0d3b1e' },
+    tags: 'Portrait Puzzle Xmas', devices: ALL, date: '2025-12-06', pop: [10.2, 10.2, 10.2, 10.2],
+    orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.5, 97], list: 'christmas',
+    en: 'Match the festive pairs – trees, snowmen, reindeer and presents – in this cosy winter memory game.',
+    pt: 'Encontre os pares natalinos – árvores, bonecos de neve, renas e presentes – neste aconchegante jogo de memória de inverno.',
+  },
+];
+
+// Seção "MORE GAMES": blocos quadrados liberados por conquistas (pacote 1 com 5 jogadas, 2 com 10, 3 com 27).
+export const moreGames = [
+  { slug: 'turbosnake', name: 'Turbo Snake', engine: 'snake', cfg: { title: 'Turbo Snake', speed: 14, key: 'turbosnake' }, pack: '', tags: 'Landscape Action', orientation: 'Landscape', controls: 'k', keys: 'UDLR', mb: 1, rating: [4.4, 52], en: 'The snake has had too much coffee. Everything happens twice as fast!', pt: 'A cobra tomou café demais. Tudo acontece duas vezes mais rápido!' },
+  { slug: 'fruitmemory', name: 'Fruit Memory XL', engine: 'memory', cfg: { title: 'Fruit Memory XL', key: 'fruitmemory', symbols: ['🍎', '🍌', '🍇', '🍓', '🍒', '🥝', '🍍', '🍉', '🍑', '🥥'], cols: 4, rows: 5 }, pack: '', tags: 'Portrait Puzzle', orientation: 'Portrait', controls: 'm', keys: '', mb: 1, rating: [4.3, 40], en: 'Ten pairs of fruit to match on a bigger table.', pt: 'Dez pares de frutas para encontrar numa mesa maior.' },
+  { slug: 'megamaze', name: 'Mega Maze', engine: 'maze', cfg: { startLevel: 4 }, pack: '!2pk', tags: 'Portrait Adventure', orientation: 'Portrait', controls: 'k', keys: 'UDLR', mb: 1, rating: [4.5, 33], en: 'Huge mazes from the very first level. Bring a map!', pt: 'Labirintos enormes desde o primeiro nível. Leve um mapa!' },
+  { slug: 'nightgiftcatcher', name: 'Starfall Catcher', engine: 'catcher', cfg: { title: 'Starfall Catcher', key: 'starfall', good: ['⭐', '🌟', '💎', '🪙'], bad: ['☄️', '🌑'], sky: ['#000010', '#1a237e'], moon: false, overTitle: 'Lights out!', hint: ['Catch the stars and gems', 'Avoid meteors and dark moons!'] }, pack: '!3pk', tags: 'Landscape Action', orientation: 'Landscape', controls: 'm', keys: 'LR', mb: 1, rating: [4.6, 21], en: 'Catch falling stars and gems on a clear night – but dodge the meteors!', pt: 'Pegue estrelas cadentes e joias numa noite clara – mas desvie dos meteoros!' },
+];
